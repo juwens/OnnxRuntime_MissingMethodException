@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnnxRuntimeMissingMethodException", "OnnxRuntimeMissingMethodException\OnnxRuntimeMissingMethodException.csproj", "{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34C75907-A854-44A8-9A6D-CA86F9F1E6A5}
+	EndGlobalSection
+EndGlobal
