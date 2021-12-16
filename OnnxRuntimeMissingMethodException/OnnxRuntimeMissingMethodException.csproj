@@ -48,6 +48,7 @@
         <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
         <CodesignKey>iPhone Developer</CodesignKey>
         <MtouchDebug>true</MtouchDebug>
+        <MtouchLink>SdkOnly</MtouchLink>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
         <DebugType>none</DebugType>
@@ -58,6 +59,7 @@
         <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
         <MtouchArch>ARM64</MtouchArch>
         <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchLink>SdkOnly</MtouchLink>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="System" />
@@ -134,5 +136,14 @@
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
     </ItemGroup>
+    
+      
+    <ItemGroup>
+      <ProjectReference Include="..\LibraryUsingOnnxRuntime\LibraryUsingOnnxRuntime.csproj">
+        <Project>{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}</Project>
+        <Name>LibraryUsingOnnxRuntime</Name>
+      </ProjectReference>
+    </ItemGroup>
+
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

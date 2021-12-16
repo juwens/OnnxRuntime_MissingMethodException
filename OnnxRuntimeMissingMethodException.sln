@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1700.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnnxRuntimeMissingMethodException", "OnnxRuntimeMissingMethodException\OnnxRuntimeMissingMethodException.csproj", "{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryUsingOnnxRuntime", "LibraryUsingOnnxRuntime\LibraryUsingOnnxRuntime.csproj", "{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -21,6 +23,14 @@ Global
 		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Debug|iPhone.Build.0 = Debug|iPhone
 		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Release|iPhone.ActiveCfg = Release|iPhone
 		{750F47ED-AFDC-4D6C-AF2F-3EF04719014A}.Release|iPhone.Build.0 = Release|iPhone
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C4AF0FEA-51B8-4A6F-8CBF-F4A0757DE555}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
